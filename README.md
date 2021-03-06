@@ -1,2 +1,6 @@
 # 22-Eats-Customer-Support
-### test
+### Explanation of Project
+
+### How To Run & Compile Code
+
+### Class Organization
