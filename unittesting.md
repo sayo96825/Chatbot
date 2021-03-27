@@ -35,8 +35,3 @@ The user types the following in sequence into the chat box: "menu", 6, "real age
 The test succeeds if the chat bot responds appropriately at each stage in the sequence.
 The test ends when the user closes the chat window.
 
-### Test 7 - Menu Item 0
-In this test, the user as choosen option zero from the menu; they wish to exit the chat window.
-The user types the following in sequence into the chat box: "menu", 0.
-The test succeeds if the chat bot responds appropriately at each stage in the sequence, and a file is created that has logged each word/phrase typed by the user in the chat box.
-The test ends when the user closes the chat window.
