@@ -1,25 +1,25 @@
 # Unit Testing Documentation for Chat Bot
 ### Test 1 - Menu Item 1
 In this test, the user as choosen option one from the menu; they have missing food in their order.
-The user types the following in sequence into the chat box: "hi","yes", 1, "#a3992", "fries", "refund". 
+The user types the following in sequence into the chat box: "hi","yes", 1, "#a", "fries", "refund". 
 The test succeeds if the chat bot responds appropriately at each stage in the sequence.
 The test ends when the user closes the chat window.
 
 ### Test 2 - Menu Item 2
 In this test, the user as choosen option two from the menu; they want to report a late delivery.
-The user types the following in sequence into the chat box: "hi","yes", 2, "#b4912", "an hour", "talk". 
+The user types the following in sequence into the chat box: "hi","yes", 2, "#b", "an hour", "talk". 
 The test succeeds if the chat bot responds appropriately at each stage in the sequence.
 The test ends when the user closes the chat window.
 
 ### Test 3 - Menu Item 3
 In this test, the user as choosen option three from the menu; they have a complaint on the quality of the food.
-The user types the following in sequence into the chat box: "hi","yes", 3, "#c7742", "it was cold", "pizza". 
+The user types the following in sequence into the chat box: "hi","yes", 3, "#c", "it was cold", "pizza". 
 The test succeeds if the chat bot responds appropriately at each stage in the sequence.
 The test ends when the user closes the chat window.
 
 ### Test 4 - Menu Item 4
 In this test, the user as choosen option four from the menu; they have a complaint about the delivery driver.
-The user types the following in sequence into the chat box: "hi","yes", 4, "#d4816", "they were rude". 
+The user types the following in sequence into the chat box: "hi","yes", 4, "#d", "they were rude". 
 The test succeeds if the chat bot responds appropriately at each stage in the sequence.
 The test ends when the user closes the chat window.
 
