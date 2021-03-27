@@ -8,4 +8,14 @@ Run the file Chatbot.java in a program such as Eclipse or similar.
 
 ### Class Organization
 The main class of Chatbot.java is comprised of a menu with 6 different choices: missing food, late delivery, quality of food, delivery driver, other, and exit. Based on the choice of the customer, the code will print out a helpful response, ask for more clarification, or provide options for the customer all of which may utilize the 5 helper methods found at the bottom of the code. Essentially, the code uses conditional logic that moves its way through a menu based on the customers response.
+### A3 Updates
+In A3, we would work on the old bot we created and implement new features to it. Moreover, our bot would also have one more topic on the issues the customers might encounter. All the new features would provide the customers with even better experience when they have any issues. On the background of our program, we record the user's inputs to analyze them using named entity recognition and POS(part-of-speech) tagging to improve the conversation. Lastly, we have unit tests to test certain part of the program. With all the visible and invisible features, we could make the conversation more smoothe.
 
+List of change:
+1. GUI- when the programming is running, a new window would pop up to let the user start the conversation.
+2. NER- Gather user's inputs and identify each word as an object, name, nationality etc.
+Example: (french, NATIONALITY) (refund,O) 
+4. POS- POS is also called grammatical tagging. It gathers user's inputs and identify each word as nouns, adjectives etc.
+Example: hi   UH, yes   UH, I   PRP, missing VBG
+6. potter stemmer
+7. Unit testing
