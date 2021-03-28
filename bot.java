@@ -1,6 +1,7 @@
 
 
 package bot;
+
 import java.awt.List;
 
 import java.util.Map;
@@ -40,8 +41,8 @@ import java.util.Random;
 
 public class bot extends JFrame{
 	
-	private static JTextArea textarea = new JTextArea();
-	private static JTextField chatbox = new JTextField();
+	protected static JTextArea textarea = new JTextArea();
+	protected static JTextField chatbox = new JTextField();
 	JScrollPane scroll = new JScrollPane(textarea, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 	String [] possibleanswer = {"I'm not sure how I can help you with that.", "Would you like to talk to a real agent? type real agent to do so.","This path is still under construction!", "please provide feedback on what the other options for help may be!", "I'm still learning. Once I grow up I can help you with this"};
 	
@@ -92,10 +93,10 @@ public class bot extends JFrame{
 					bot("Hello, Welcome to T22 Eats Customer Support! Are you an existing member?");
 				}
 				else if(gtext.contains("yes")) {
-					bot("Alright Welcome to the chat. To help you, choose an option frrom this existing menu." + "\n");
+					bot("Alright Welcome to the chat. To help you, choose an option from this existing menu." + "\n");
 					issuesmenu();
 				}else if (gtext.contains("no")) {
-					bot("oops, we can only allow registered clients. get registered and then come back");
+					bot("oops, we can only allow registered clients. Get registered and then come back.");
 				
 					bot("Are you registered now?");
 				}else if (gtext.contains("1")) {
@@ -129,7 +130,7 @@ public class bot extends JFrame{
 		        	bot("I am sorry but this isn't late enough to warrant a refund. would you like to talk a real agent?");
 		        	bot("If yes type real agent");
 		        }else if (gtext.contains("an hour")||gtext.contains("over an hour") ||gtext.contains("over two hours")) {
-		        	bot("We apologise for the issue. would you like a rerfund or a conversation with a real agent?");
+		        	bot("We apologise for the issue. would you like a refund or a conversation with a real agent?");
 		        }
 				
 				
@@ -194,6 +195,9 @@ public class bot extends JFrame{
 					issuesmenu();
 				}else if(gtext.contains("thank you")) {
 					bot("You are welcome! I am happy to assist in any way I can");
+				}
+				else if(gtext.length()==0) {
+					bot("Please type something. We can't understand.");
 				}
 				else {
 					Random rand = new Random();
@@ -288,3 +292,4 @@ public class bot extends JFrame{
 	}
 
 }
+
