@@ -11,11 +11,11 @@ The main class of Chatbot.java is comprised of a menu with 6 different choices: 
 ### A3 Updates
 In A3, we would work on the old bot we created and implement new features to it. Moreover, our bot would also have one more topic on the issues the customers might encounter. All the new features would provide the customers with even better experience when they have any issues. On the background of our program, we record the user's inputs to analyze them using named entity recognition and POS(part-of-speech) tagging to improve the conversation. Lastly, we have unit tests to test certain part of the program. With all the visible and invisible features, we could make the conversation more smoothe.
 
-List of change:
+List of change (for the one not having a snippet, we feel like they are actual functions and could not be examples represented by only parts of the program):
 1. GUI- when the programming is running, a new window would pop up to let the user start the conversation.
 2. NER- Gather user's inputs and identify each word as an object, name, nationality etc.
 Example: (french, NATIONALITY) (refund,O) 
 4. POS- POS is also called grammatical tagging. It gathers user's inputs and identify each word as nouns, adjectives etc.
 Example: hi   UH, yes   UH, I   PRP, missing VBG
-6. potter stemmer
-7. Unit testing
+5. Unit testing- The unit testing is for the developers to test on a small part of the whole program so it is easier to find mistakes and change them. The main idea of ours are testing whether the bot is working if users correctly type in the texts.
+Example: To check if the user's input are valid. If users hit enter with nothing in the textbox the bot would tell the users "Please type something. We can't understand.".
