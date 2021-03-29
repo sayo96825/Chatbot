@@ -1,4 +1,5 @@
-# Please include these dependencies under </build> in the pom file of the Maven project
+Please include these dependencies under </build> in the pom file of the Maven project:
+
 <dependencies>
 <dependency>
     <groupId>edu.stanford.nlp</groupId>
